@@ -1,0 +1,65 @@
+1.	creating repository
+
+$ git init
+$ git init <file location>
+
+2.	checking the staging area
+
+$ git status
+
+3.	adding files to the staging area
+
+$ git add <file name>
+$ git add . (it will stage all files in the staging area)
+
+
+4.	delete a file from the staging area
+
+$ git rm --cached <file name>
+ 
+5.	commiting my stage
+
+$ git commit -m "My comment about the change"
+
+6.	showing the log of all commits
+
+$ git log
+$ git log --oneline (it will show commits in one line)
+
+7.	checkout commit ---(green)
+
+$ git checkout <commit id>
+
+8.	revert commit ---(yellow)
+
+$ git revert <commit id>
+
+9.	reset commit ---(red)
+
+& git reset <commit id>
+& git reset <commit id> --hard
+
+10.	creating branch
+
+$ git branch <branch name>
+
+11.	showing branch
+
+$ git branch -a
+
+12.	switching to another branch
+
+$ git branch checkout <branch name>
+
+13.	deleting branch
+
+$ git branch -D <branch name> (it will delete if the branch is nonmarnged)
+$ git branch -d <branch name> (it will delete if the branch is marged)
+
+14.	creating as well as checking out the created branch
+
+$ git checkout -b <branch name>
+
+15.	merging with master branch
+
+& git 
