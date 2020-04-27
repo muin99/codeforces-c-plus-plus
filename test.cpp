@@ -2,11 +2,14 @@
 #include<string>
 #include<cstring>
 #include<algorithm>
+#include<cstdio>
 using namespace std;
 int main()
 {
     string a,b;
-    a="Muin";
+    a=".c";
+    int kk;
     ///b=a.replace(0,1, 'm', 'M');
-    cout<<b;
+    cin>>(char)kk;
+    cout<<kk;
 }
